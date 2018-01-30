@@ -40,11 +40,6 @@ public class Circle {
     }
 
     public boolean pointsCircle(Circle cir) {
-//        double inner;
-//        if (this.r > cir.r)
-//            inner = this.r - cir.r;
-//        else
-//            inner = cir.r - this.r;
         double inner = (this.r > cir.r) ? this.r - cir.r : cir.r - this.r;
         double outer = this.r + cir.r;
 
